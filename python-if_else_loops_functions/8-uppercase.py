@@ -5,3 +5,5 @@ def uppercase(str):
         if (ord(i) > 96 and ord(i) < 123):
             new = new + chr(ord(i) - 32)
         return new
+
+print("{}".format(uppercase('SomeThing')))
