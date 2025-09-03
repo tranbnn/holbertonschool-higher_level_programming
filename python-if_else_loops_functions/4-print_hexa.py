@@ -2,4 +2,4 @@
 for i in range(99):
     decimal_value = i
     hexa_value = hex(i)
-    print(f"{decimal_value} = {hexa_value}")
+    print("{} = {}".format(decimal_value, hexa_value))
