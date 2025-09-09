@@ -2,12 +2,11 @@
 
 def divisible_by_2(my_list=[]):
 
-    new_list = my_list[:]
+    result = []
 
-    for pointer in new_list:
+    for pointer in my_list:
         if pointer % 2 == 0:
-            new_list[pointer] = True
+            result.append(True)
         else:
-            new_list[pointer] = False
-        
-    return new_list
+            result.append(False)
+    return result
