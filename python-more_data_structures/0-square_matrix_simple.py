@@ -1,11 +1,11 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 
 def square_matrix_simple(matrix=[]):
 
-    copy_matrix = matrix
+    new_list = []
 
-    for num in matrix:
-        squared_matrix_map = map((num ** 2), copy_matrix)
-        new_matrix = list(squared_matrix_max)
+    for row in matrix:
+        squared_matrix = map(lambda x: x * x, row)
+        new_list.append(list(squared_matrix))
 
-    return new_matrix
+    return new_list
